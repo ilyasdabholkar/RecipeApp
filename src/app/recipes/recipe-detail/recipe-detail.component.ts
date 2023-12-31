@@ -22,7 +22,6 @@ export class RecipeDetailComponent implements OnInit {
           this.recipe = this.recipeService.getRecipe(this.id);
       }
     );
-
   }
   
   onClickToShoppingList(ingredients : Ingredient[]){
